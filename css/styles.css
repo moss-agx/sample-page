@@ -43,8 +43,8 @@ h3 {
 }
 .bottom-container {
   background-color: #66BFBF;
-  display: flex;
-  width : 100%
+  width : 100%;
+  padding: 10px;
 }
 
 .bottom-cloud {
@@ -90,13 +90,15 @@ h3 {
   width: 5%;
 
 }
-.footer-link {
-  color: #11999E;
-  padding: 20px;
-  position: relative;
-  left: 680px;
-  bottom: 17px;
+.bottom-container1 {
+  margin: 0 auto 0 auto;
+  padding : 5px;
 }
+.footer-link {
+  padding: 10px;
+  color: #30475e;
+}
+
 .btn {
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
@@ -133,6 +135,4 @@ h3 {
   color : #EAF6F6;
   padding: 5px;
   margin: 30px auto 30px auto;
-  position: relative;
-  right: 160px;
 }
